@@ -65,3 +65,18 @@ public class ATM {
         }
     }
 }
+public class BankAccount {
+    private double accountBalance;
+
+    public BankAccount(double initialBalance) {
+        this.accountBalance = initialBalance;
+    }
+
+    public double getBalance() {
+        return accountBalance;
+    }
+
+    public void updateBalance(double amount) {
+        accountBalance += amount;
+    }
+}
